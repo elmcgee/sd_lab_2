@@ -7,7 +7,7 @@ if (!window.WebSocket) {
     socket = new WebSocket("ws://ec2-54-242-86-211.compute-1.amazonaws.com:8000/");
     socket.onmessage = event => {
         console.log(event.data);
-        $("#received").html(event.data);
+        $("#data_received").html("<p>" + event.data + "</p>");
     }
 }
 
