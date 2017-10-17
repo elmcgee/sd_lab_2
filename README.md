@@ -9,6 +9,26 @@ This is a repository for Senior Design's second lab. We are to build a VOIP (voi
 
 Mac:
 
+please download homebrew...
+
 ```brew install sox```
 
-```npm install ``` ... ```ws```, ```mic```, and ```node-opus```
+for npm:
+
+```npm install ws```
+
+then
+
+```npm install mic```
+
+then
+
+```node-opus```
+
+or if you are a lazy person who hates install all the things...
+
+please do
+
+```npm i ``` ...
+
+-Thomas
