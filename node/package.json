@@ -11,6 +11,7 @@
     "url": "git+https://github.com/jiyuhan/sd_lab_2.git"
   },
   "dependencies": {
+    "mic": "^2.1.2",
     "node-opus": "^0.2.7",
     "ws": "^3.2.0"
   },
